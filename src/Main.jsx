@@ -37,7 +37,7 @@ export default function Main() {
         </div>
       </ul>
 
-      <h2 className="skills">Technical skills:</h2>
+      <h2 className="skills">technical skills:</h2>
       <div className="skills-icons">
         <img width="55px" src="src/assets/html5.svg" />
         <img width="55px" src="src/assets/css3.svg" />

@@ -109,10 +109,12 @@ h3 {
 }
 
 .section__subtitle--intro {
-  background: var(--clr-accent);
+  background: #8c5b97;
+  color: white;
   padding: 0.25em 1em;
   font-family: var(--ff-secondary);
   margin-bottom: 1em;
+  margin-top: 0.25em;
   display: inline-block;
 }
 
@@ -131,7 +133,7 @@ strong {
 }
 
 section {
-  padding: 5em 2em;
+  padding: 3em 2em;
 }
 
 .intro {
@@ -160,8 +162,14 @@ section {
 }
 
 .skills {
-  margin-top: 1rem;
-  font-weight: 600;
+  margin-top: 1.75rem;
+  font-weight: 500;
+  font-size: var(--fs-h3);
+  background: #8c5b97;
+  color: white;
+  padding: 0.5em 1em;
+  display: inline-block;
+  font-family: var(--ff-secondary);
 }
 
 .skills-icons {
@@ -192,6 +200,14 @@ ul {
   display: block;
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+.info {
+  gap: 0.25em;
+}
+
+.about-me {
+  margin-top: 0.75em;
 }
 
 @media (min-width: 600px) {
