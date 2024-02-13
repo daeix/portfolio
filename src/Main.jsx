@@ -20,12 +20,12 @@ export default function Main() {
         <div className="info">
           <img width="25px" src="src/assets/code.svg" />
 
-          <li>coder</li>
+          <li>code addict</li>
         </div>
 
         <div className="info">
           <img width="25px" src="src/assets/baby.svg" />
-          <li>father</li>
+          <li>father of two daughters</li>
         </div>
         <div className="info">
           <img width="25px" src="src/assets/travel.svg" />
@@ -36,17 +36,20 @@ export default function Main() {
           <li>food lover</li>
         </div>
       </ul>
+      <div>
+        <h2 className="skills">technical skills:</h2>
+        <div className="skills-icons">
+          <img width="55px" src="src/assets/html5.svg" />
+          <img width="55px" src="src/assets/css3.svg" />
+          <img width="55px" src="src/assets/javascript.svg" />
+          <img width="55px" src="src/assets/react.svg" />
 
-      <h2 className="skills">technical skills:</h2>
-      <div className="skills-icons">
-        <img width="55px" src="src/assets/html5.svg" />
-        <img width="55px" src="src/assets/css3.svg" />
-        <img width="55px" src="src/assets/javascript.svg" />
-        <img width="55px" src="src/assets/git2.svg" />
-        <img width="55px" src="src/assets/react.svg" />
-        <img width="55px" src="src/assets/typescript.svg" />
-        <img width="55px" src="src/assets/firebase.svg" />
-        <img width="55px" src="src/assets/tailwind.svg" />
+          <img width="55px" src="src/assets/typescript.svg" />
+          <img width="55px" src="src/assets/git2.svg" />
+
+          <img width="55px" src="src/assets/firebase.svg" />
+          <img width="55px" src="src/assets/tailwind.svg" />
+        </div>
       </div>
     </section>
   )

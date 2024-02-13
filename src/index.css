@@ -80,6 +80,7 @@ h3 {
   width: 100%;
   display: flex;
   justify-content: center;
+  margin: 0;
 }
 
 .nav-link,
@@ -90,10 +91,11 @@ h3 {
 }
 
 .nav-link-initials {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: bold;
   text-align: center;
   margin: 0;
+  color: #255876;
 }
 
 .intro__img {
@@ -109,7 +111,7 @@ h3 {
 }
 
 .section__subtitle--intro {
-  background: #8c5b97;
+  background: #255876;
   color: white;
   padding: 0.25em 1em;
   font-family: var(--ff-secondary);
@@ -162,10 +164,11 @@ section {
 }
 
 .skills {
-  margin-top: 1.75rem;
+  margin-top: 0.75rem;
+
   font-weight: 500;
   font-size: var(--fs-h3);
-  background: #8c5b97;
+  background: #255876;
   color: white;
   padding: 0.5em 1em;
   display: inline-block;
@@ -177,6 +180,7 @@ section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 5px;
+  max-width: 300px;
 }
 
 .email {
@@ -196,18 +200,16 @@ section {
   list-style: none;
 }
 
-ul {
-  display: block;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
 .info {
   gap: 0.25em;
 }
 
 .about-me {
   margin-top: 0.75em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: "Titillium Web", sans-serif;
 }
 
 @media (min-width: 600px) {
@@ -247,5 +249,9 @@ ul {
 
   .nav-link {
     font-size: 1.15rem;
+  }
+
+  .skills {
+    margin-top: 0.25rem;
   }
 }

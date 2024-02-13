@@ -8,6 +8,7 @@ export default function Header() {
               home
             </a>
           </li>
+
           <li className="nav-item">
             <a href="#" className="nav-link">
               about me
