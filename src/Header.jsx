@@ -1,35 +1,35 @@
+import React from "react"
+import { NavLink } from "react-router-dom"
+import { MdOutlineDarkMode } from "react-icons/md"
+
 export default function Header() {
   return (
     <>
       <nav className="nav">
         <ul className="nav-list">
           <li className="nav-item">
-            <a href="#" className="nav-link">
+            <NavLink to="/" className="nav-link">
               home
-            </a>
+            </NavLink>
           </li>
 
           <li className="nav-item">
-            <a href="#" className="nav-link">
-              about me
-            </a>
+            <NavLink to="/about" className="nav-link">
+              about
+            </NavLink>
           </li>
           <li className="nav-item">
-            <a href="#" className="nav-link-initials">
+            <NavLink to="/" className="nav-link-initials">
               mk
-            </a>
+            </NavLink>
           </li>
           <li className="nav-item">
-            <a href="#" className="nav-link">
+            <NavLink to="/portfolio" href="#" className="nav-link">
               portfolio
-            </a>
+            </NavLink>
           </li>
           <li className="nav-item">
-            <img
-              src="src//assets/dark-mode.png"
-              href="#"
-              className="nav-link"
-            ></img>
+            <img width="30px" src="src/assets/dark-mode.svg" />{" "}
           </li>
         </ul>
       </nav>
