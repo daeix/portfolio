@@ -81,6 +81,7 @@ h3 {
   display: flex;
   justify-content: center;
   margin: 0;
+  overflow: hidden;
 }
 
 .nav-link,
@@ -229,20 +230,30 @@ section {
   justify-content: center;
   align-items: center;
 }
-
-/* TerminalContainer.css */
-
 .terminal-container {
-  width: 100%; /* Set the width to 100% */
-  max-width: 500px;
-  background-color: #2a2a2a; /* Slightly lighter color */
+  width: calc(100% - 2rem);
+  max-width: 685px; /* Adjust the max-width as needed */
+  background-color: #2a2a2a;
   color: #fff;
   font-family: "Courier New", Courier, monospace;
   border-radius: 8px;
   overflow: hidden;
   position: relative;
-  margin: 0 auto;
+  margin: 2em auto 2em; /* 2em margin on top, auto margin on left and right */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.terminal-bar {
+  background-color: #555; /* Terminal bar background color */
+  padding: 0; /* Remove padding for the terminal bar */
+}
+
+@media (min-width: 800px) {
+  .terminal-container {
+    width: calc(
+      100vw - 2rem
+    ); /* Adjust the width for larger screens with padding */
+  }
 }
 
 .terminal-bar {
@@ -283,7 +294,7 @@ section {
   overflow-y: auto;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 900px) {
   .intro {
     display: grid;
     width: min-content;
