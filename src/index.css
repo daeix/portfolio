@@ -292,6 +292,30 @@ section {
   padding: 30px; /* Increase the padding as needed */
   font-size: 18px; /* Increase the font size as needed */
   overflow-y: auto;
+  line-height: 2.5em;
+}
+
+.term-content2 {
+  line-height: 1.4em;
+}
+
+.about-title {
+  color: rgb(0, 255, 164);
+}
+
+.about-title2 {
+  color: rgb(0, 255, 164);
+  line-height: 3em;
+}
+
+li {
+  list-style: none;
+}
+
+.hobbies-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 @media (min-width: 900px) {

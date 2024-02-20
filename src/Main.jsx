@@ -6,11 +6,9 @@ export default function Main() {
       <h1 className="section_title section_title--intro">
         Hi, I am <strong>Mariusz</strong>
       </h1>
-
       <p className="section__subtitle section__subtitle--intro">
         software developer
       </p>
-
       <img
         className="intro__img"
         src="src/assets/self.jpg"
@@ -19,10 +17,8 @@ export default function Main() {
       <ul className="about-me">
         <div className="info">
           <img width="25px" src="src/assets/code.svg" />
-
           <li>code addict</li>
         </div>
-
         <div className="info">
           <img width="25px" src="src/assets/baby.svg" />
           <li>father of two daughters</li>
@@ -43,10 +39,8 @@ export default function Main() {
           <img width="55px" src="src/assets/css3.svg" />
           <img width="55px" src="src/assets/javascript.svg" />
           <img width="55px" src="src/assets/react.svg" />
-
           <img width="55px" src="src/assets/typescript.svg" />
           <img width="55px" src="src/assets/git2.svg" />
-
           <img width="55px" src="src/assets/firebase.svg" />
           <img width="55px" src="src/assets/tailwind.svg" />
         </div>
