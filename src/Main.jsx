@@ -35,14 +35,15 @@ export default function Main() {
       <div>
         <h2 className="skills">technical skills:</h2>
         <div className="skills-icons">
-          <img width="55px" src="src/assets/html5.svg" />
-          <img width="55px" src="src/assets/css3.svg" />
-          <img width="55px" src="src/assets/javascript.svg" />
-          <img width="55px" src="src/assets/react.svg" />
-          <img width="55px" src="src/assets/typescript.svg" />
-          <img width="55px" src="src/assets/git2.svg" />
-          <img width="55px" src="src/assets/firebase.svg" />
-          <img width="55px" src="src/assets/tailwind.svg" />
+          <img width="55px" alt="html-icon" src="src/assets/html5.svg" />
+          <img width="55px" alt="css-icon" src="src/assets/css3.svg" />
+          <img width="55px" alt="js-icon" src="src/assets/javascript.svg" />
+          <img width="55px" alt="react-icon" src="src/assets/react.svg" />
+          <img width="55px" alt="ts-icon" src="src/assets/typescript.svg" />
+          <img width="55px" alt="git-icon" src="src/assets/git2.svg" />
+          <img width="55px" alt="fb-icon" src="src/assets/firebase.svg" />
+          <img width="55px" alt="tw-icon" src="src/assets/tailwind.svg" />
+          <img width="55px" alt="figma-icon" src="src/assets/figma.svg" />
         </div>
       </div>
     </section>

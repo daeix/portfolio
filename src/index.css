@@ -316,6 +316,12 @@ li {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  gap: 0.25em;
+}
+
+.about-skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 @media (min-width: 900px) {
