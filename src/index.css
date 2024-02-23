@@ -52,6 +52,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 0.25em;
+  margin-top: 2em;
 }
 
 .developer {
@@ -238,11 +239,6 @@ section {
 .footer {
   text-align: center;
   color: #9e9b9b;
-  position: fixed;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
 }
 
 .skills {
