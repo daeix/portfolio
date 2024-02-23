@@ -19,10 +19,18 @@ export default function Main() {
           <div className="contact-me">
             Contact me <BsArrowRightCircle />
             <div className="social-icons">
-              <a target="_blank" aria-label="github" href="">
+              <a
+                target="_blank"
+                aria-label="github"
+                href="https://github.com/daeix"
+              >
                 <FaGithub className="social-icon" />
               </a>
-              <a target="_blank" aria-label="linkedin" href="">
+              <a
+                target="_blank"
+                aria-label="linkedin"
+                href="https://www.linkedin.com/in/mariusz-karpow-6840412a2/"
+              >
                 <FaLinkedin className="social-icon" />
               </a>
             </div>
