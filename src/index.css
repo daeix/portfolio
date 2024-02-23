@@ -33,16 +33,72 @@ body {
   font-size: var(--fs-body);
   line-height: 1.6;
   font-family: "Titillium Web", sans-serif;
+  background-color: #f5df4e;
 }
 
 .headshot {
-  width: 334.4px;
-  height: 334.4px;
+  width: 354.4px;
+  height: 354.4px;
   border-radius: 255px;
-  border: 15px solid black;
+  border: 15px solid white;
   margin: 0 auto;
   background-image: url(src/assets/self.jpg);
   background-size: cover;
+}
+
+.home-page-flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25em;
+}
+
+.developer {
+  font-size: 1.65em;
+  margin-top: 0.15em;
+}
+
+.contact-me {
+  display: flex;
+  align-items: center;
+  gap: 0.18em;
+}
+
+.location,
+.introduction {
+  font-size: 1.15em;
+  text-align: center;
+  margin-top: 0.95em;
+}
+
+.view-work-button {
+  background-color: #212529;
+  padding: 0.81rem 2rem;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+  line-height: 1.5;
+  text-decoration: none;
+  color: white !important;
+  transition: all 0.5s ease;
+}
+
+.view-work-button:hover {
+  background-color: #393f46;
+}
+
+.work-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25em;
+  margin-top: 1.25em;
+}
+
+.introduction {
+  font-weight: 300;
+  font-size: 1.75em;
 }
 
 ul {
@@ -107,7 +163,6 @@ h3 {
   font-weight: bold;
   text-align: center;
   margin: 0;
-  color: #255876;
 }
 
 .nav-item {
@@ -183,6 +238,11 @@ section {
 .footer {
   text-align: center;
   color: #9e9b9b;
+  position: fixed;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .skills {
