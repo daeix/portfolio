@@ -63,7 +63,11 @@ body {
 .contact-me {
   display: flex;
   align-items: center;
-  gap: 0.18em;
+  gap: 0.2em;
+}
+
+.developer {
+  font-size: 2.15em;
 }
 
 .location,
@@ -438,6 +442,32 @@ a:hover {
 }
 
 @media (min-width: 900px) {
+  .home-page-flex-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+  }
+
+  .headshot {
+    margin: 0;
+    width: 450px;
+    height: 450px;
+  }
+
+  .introduction {
+    font-size: 2.85em;
+  }
+
+  .introduction,
+  .location {
+    text-align: left;
+  }
+
+  .work-contact {
+    flex-direction: row;
+    justify-content: left;
+  }
+
   .intro {
     display: grid;
     width: min-content;
