@@ -42,7 +42,7 @@ body {
   border-radius: 255px;
   border: 15px solid white;
   margin: 0 auto;
-  background-image: url(src/assets/self.png);
+  background-image: url(/self.png);
   background-size: cover;
 }
 
@@ -417,6 +417,7 @@ a:hover {
   }
 
   .nav-link {
-    font-size: 2rem;
+    font-size: 1.75rem;
+    font-weight: 600;
   }
 }
