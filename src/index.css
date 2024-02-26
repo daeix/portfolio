@@ -5,10 +5,11 @@
   margin: 0;
 }
 
-:root {
-  --ff-primary: "Source Sans Pro", sans-serif;
-  --ff-secondary: "Source Code Pro", monospace;
+html {
+  scroll-behavior: smooth;
+}
 
+:root {
   --fw-reg: 300;
   --fw-bold: 900;
 
@@ -21,8 +22,7 @@
   --fs-h3: 1.25rem;
   --fs-body: 1rem;
 
-  --bs: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25),
-    0.125em 0.125em 0.25em rgba(0, 0, 0, 0.15);
+  --bs: 0.25em 0.25em 0.75em #303030, 0.125em 0.125em 0.25em #303030;
 }
 
 body {
@@ -42,7 +42,7 @@ body {
   border-radius: 255px;
   border: 15px solid white;
   margin: 0 auto;
-  background-image: url(src/assets/self.jpg);
+  background-image: url(src/assets/self.png);
   background-size: cover;
 }
 
@@ -58,6 +58,40 @@ body {
 .developer {
   font-size: 1.65em;
   margin-top: 0.15em;
+  overflow: hidden;
+  border-right: 0.15em solid #303030;
+  white-space: nowrap;
+  font-size: 1.6rem;
+  width: 0;
+  animation: typing 2s steps(20, end) forwards, blink 0.8s infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  from {
+    border-color: transparent;
+  }
+  to {
+    border-color: #303030;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #303030;
+  }
 }
 
 .contact-me {
@@ -127,19 +161,6 @@ h3 {
   margin: 0;
 }
 
-h1 {
-  font-size: var(--fs-h1);
-  font-weight: normal;
-}
-
-h2 {
-  font-size: var(--fs-h2);
-}
-
-h3 {
-  font-size: var(--fs-h3);
-}
-
 .nav-list {
   justify-content: space-around;
   display: flex;
@@ -155,19 +176,17 @@ h3 {
   overflow: hidden;
 }
 
-.nav-link,
-.nav-link-initials {
+.nav-link {
   text-decoration: none;
-  color: black;
+  color: #303030;
   font-size: 1.15rem;
   position: relative;
+  font-weight: 700;
 }
 
-.nav-link-initials {
-  font-size: 2.5rem;
-  font-weight: bold;
-  text-align: center;
-  margin: 0;
+.nav-link:hover {
+  color: rgb(61, 60, 60);
+  text-decoration: underline;
 }
 
 .nav-item {
@@ -178,32 +197,6 @@ h3 {
   transform: translateY(-3px);
 }
 
-.intro__img {
-  display: block;
-  max-width: 100%;
-  position: relative;
-  z-index: 2;
-}
-
-.intro__img {
-  box-shadow: var(--bs);
-  max-width: 250px;
-}
-
-.section__subtitle--intro {
-  background: #255876;
-  color: white;
-  padding: 0.25em 1em;
-  font-family: var(--ff-secondary);
-  margin-bottom: 1em;
-  margin-top: 0.25em;
-  display: inline-block;
-}
-
-.section__subtitle {
-  font-size: var(--fs-h3);
-}
-
 img {
   display: block;
   max-width: 100%;
@@ -212,18 +205,6 @@ img {
 strong {
   font-weight: var(--fw-bold);
   display: block;
-}
-
-section {
-  padding: 3em 2em;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.intro {
-  position: relative;
 }
 
 .social-icon {
@@ -242,31 +223,8 @@ section {
 
 .footer {
   text-align: center;
-  color: #9e9b9b;
-}
-
-.skills {
-  margin-top: 0.75rem;
-  font-weight: 500;
-  font-size: var(--fs-h3);
-  background: #255876;
-  color: white;
-  padding: 0.5em 1em;
-  display: inline-block;
-  font-family: var(--ff-secondary);
-}
-
-.skills-icons {
-  margin-top: 1em;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 5px;
-  max-width: 300px;
-}
-
-.email {
-  display: flex;
-  align-items: flex-start;
+  color: #656161;
+  margin-top: 6.75em;
 }
 
 .social-icons {
@@ -277,59 +235,39 @@ section {
   margin-left: 0.35rem;
 }
 
-.info {
-  display: flex;
-  list-style: none;
-  background-color: #255876;
-  color: white;
-  padding: 0.35em;
-  border-radius: 4px;
-  gap: 0.25em;
-}
-
-.about-me {
-  margin-top: 0.75em;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  font-family: "Titillium Web", sans-serif;
-  gap: 0.75rem;
-}
-
 .footer-flex {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .terminal-container {
   width: calc(100% - 2rem);
-  max-width: 685px; /* Adjust the max-width as needed */
+  max-width: 685px;
   background-color: #2a2a2a;
   color: #fff;
   font-family: "Courier New", Courier, monospace;
   border-radius: 8px;
   overflow: hidden;
   position: relative;
-  margin: 2em auto 2em; /* 2em margin on top, auto margin on left and right */
+  margin: 2em auto 2em;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .terminal-bar {
-  background-color: #555; /* Terminal bar background color */
-  padding: 0; /* Remove padding for the terminal bar */
+  background-color: #555;
+  padding: 0;
 }
 
 @media (min-width: 800px) {
   .terminal-container {
-    width: calc(
-      100vw - 2rem
-    ); /* Adjust the width for larger screens with padding */
+    width: calc(100vw - 2rem);
   }
 }
 
 .terminal-bar {
-  background-color: #555; /* Adjust the color to make it lighter */
-  padding: 10px; /* Increase the padding as needed */
+  background-color: #555;
+  padding: 10px;
 }
 
 .dots-container {
@@ -344,7 +282,7 @@ section {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  margin-right: 10px; /* Increase the spacing as needed */
+  margin-right: 10px;
 }
 
 .red-circle {
@@ -360,8 +298,8 @@ section {
 }
 
 .terminal-content {
-  padding: 30px; /* Increase the padding as needed */
-  font-size: 18px; /* Increase the font size as needed */
+  padding: 30px;
+  font-size: 18px;
   overflow-y: auto;
   line-height: 2.5em;
 }
@@ -416,10 +354,11 @@ li {
   padding: 0.25em 0.5em;
   border-radius: 25px;
   margin: 0.15em;
+  background-color: rgb(216, 210, 210);
 }
 
 a:visited {
-  color: inherit;
+  color: #303030;
 }
 
 a:hover {
@@ -469,34 +408,8 @@ a:hover {
     padding: 10px;
   }
 
-  .intro {
-    display: grid;
-    width: min-content;
-    margin: 0 auto;
-    grid-column-gap: 1em;
-    grid-template-areas:
-      "img title"
-      "img subtitle";
-    grid-template-columns: min-content max-content;
-  }
-
-  .intro__img {
-    grid-area: img;
-    min-width: 250px;
-  }
-
   .footer-text {
     font-size: 0.85rem;
-  }
-
-  .section__subtitle--intro {
-    align-self: start;
-    grid-column: -1 / 1;
-    grid-row: 2;
-    text-align: right;
-    position: relative;
-    left: -1.5em;
-    width: calc(100% + 1.5em);
   }
 
   .nav-list {
@@ -504,14 +417,6 @@ a:hover {
   }
 
   .nav-link {
-    font-size: 1.15rem;
-  }
-
-  .skills {
-    margin-top: 0.25rem;
-  }
-
-  .about-me {
-    margin-bottom: 4.25rem;
+    font-size: 2rem;
   }
 }

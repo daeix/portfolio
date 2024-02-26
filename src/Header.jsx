@@ -18,18 +18,11 @@ export default function Header() {
               about
             </NavLink>
           </li>
-          <li className="nav-item">
-            <NavLink to="/" className="nav-link-initials">
-              mk
-            </NavLink>
-          </li>
+
           <li className="nav-item">
             <NavLink to="/portfolio" href="#" className="nav-link">
               portfolio
             </NavLink>
-          </li>
-          <li className="nav-item">
-            <img width="30px" src="src/assets/dark-mode.svg" />{" "}
           </li>
         </ul>
       </nav>
