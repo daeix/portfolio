@@ -40,10 +40,11 @@ body {
   width: 354.4px;
   height: 354.4px;
   border-radius: 255px;
-  border: 15px solid white;
+  border: 0px solid #242424;
   margin: 0 auto;
-  background-image: url(/self.png);
+  background-image: url(/self4.png);
   background-size: cover;
+  background-color: #242424;
 }
 
 .home-page-flex-container {

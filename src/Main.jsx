@@ -6,7 +6,8 @@ import { FaGithub, FaLinkedin } from "react-icons/fa"
 export default function Main() {
   return (
     <div className="home-page-flex-container">
-      <div className="headshot"></div>
+      <img className="headshot" src="/self3.png" />
+      {/* <div className="headshot"></div> */}
       <div className="introduction-flex">
         <h2 className="introduction">
           HI, I'M A SOFTWARE <strong className="developer">DEVELOPER</strong>
