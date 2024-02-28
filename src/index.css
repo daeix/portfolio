@@ -366,6 +366,10 @@ a {
   color: #242424;
 }
 
+.social-a {
+  color: red;
+}
+
 a:hover {
   color: #000000;
 }

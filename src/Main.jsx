@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom"
 import { BsArrowRightCircle } from "react-icons/bs"
 import { FaGithub, FaLinkedin } from "react-icons/fa"
 import { BsLinkedin } from "react-icons/bs"
+import { BsGithub } from "react-icons/bs"
 
 export default function Main() {
   return (
@@ -22,11 +23,12 @@ export default function Main() {
             Contact me <BsArrowRightCircle />
             <div className="social-icons">
               <a
+                className="social-a"
                 target="_blank"
                 aria-label="github"
                 href="https://github.com/daeix"
               >
-                <FaGithub className="social-icon" />
+                <BsGithub className="social-icon" />
               </a>
               <a
                 target="_blank"
