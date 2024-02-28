@@ -14,10 +14,8 @@ export default function About() {
         <div className="terminal-content term-content2">
           <span className="about-title2">mariuszkarpow $ </span>
 
-          <span>cd about mariusz</span>
-          <p>
-            <span className="about-title">aboutmariusz (main) $</span>
-          </p>
+          <span>cd about</span>
+
           <p>
             Hello! I'm Mariusz. I'm a self taught Software Developer
             specializing in React. I studied FrontEnd development since 2022, I
@@ -39,13 +37,10 @@ export default function About() {
         <div className="terminal-content">
           <span className="about-title">mariuszkarpow $ </span>
           <span>cd hobbies/interests</span>
-          <p>
-            <span className="about-title">hobbies/interests (main) $</span> ls
-          </p>
           <ul>
             <div className="hobbies-container">
               <img width="20px" src="/travel-icon.svg" />
-              <li> travelling and exploring</li>
+              <li> travelling</li>
             </div>
             <div className="hobbies-container">
               <img width="20px" src="/history-icon.svg" />
@@ -66,7 +61,6 @@ export default function About() {
           </ul>
         </div>
       </div>
-
       <div className="terminal-container">
         <div className="terminal-bar">
           <div className="dots-container">
