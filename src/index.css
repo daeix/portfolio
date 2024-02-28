@@ -42,7 +42,7 @@ body {
   border-radius: 255px;
   border: 0px solid #242424;
   margin: 0 auto;
-  background-image: url(/self4.png);
+  /* background-image: url(/self4.png); */
   background-size: cover;
   background-color: #242424;
 }
@@ -179,15 +179,15 @@ h3 {
 
 .nav-link {
   text-decoration: none;
-  color: #303030;
+  color: #242424;
   font-size: 1.15rem;
   position: relative;
   font-weight: 700;
 }
 
 .nav-link:hover {
-  color: rgb(61, 60, 60);
-  text-decoration: underline;
+  color: #242424;
+  border-bottom: 1px solid #242424;
 }
 
 .nav-item {
@@ -362,8 +362,12 @@ a:visited {
   color: #303030;
 }
 
+a {
+  color: #242424;
+}
+
 a:hover {
-  color: rgb(156, 150, 150);
+  color: #000000;
 }
 
 .project-description {

@@ -4,9 +4,7 @@ import { MdOutlineDarkMode } from "react-icons/md"
 
 export default function Header() {
   const activeStyles = {
-    fontWeight: "bold",
-    textDecoration: "underline",
-    color: "#161616",
+    borderBottom: "1px solid #242424",
   }
 
   return (
