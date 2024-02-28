@@ -358,17 +358,13 @@ li {
   background-color: rgb(216, 210, 210);
 }
 
-/* a:visited {
-  color: #303030;
+.social-icon-a {
+  color: #393f46;
 }
 
-a {
-  color: #242424;
+.social-icon-a:hover {
+  color: #1f2326;
 }
-
-a:hover {
-  color: #000000;
-} */
 
 .project-description {
   margin: 0.4em 0;

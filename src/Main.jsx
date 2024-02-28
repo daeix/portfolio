@@ -23,6 +23,7 @@ export default function Main() {
             Contact me <BsArrowRightCircle />
             <div className="social-icons">
               <a
+                className="social-icon-a"
                 target="_blank"
                 aria-label="github"
                 href="https://github.com/daeix"
@@ -30,6 +31,7 @@ export default function Main() {
                 <BsGithub className="social-icon" />
               </a>
               <a
+                className="social-icon-a"
                 target="_blank"
                 aria-label="linkedin"
                 href="https://www.linkedin.com/in/mariusz-karpow-6840412a2/"
