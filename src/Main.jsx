@@ -2,6 +2,7 @@ import React from "react"
 import { NavLink } from "react-router-dom"
 import { BsArrowRightCircle } from "react-icons/bs"
 import { FaGithub, FaLinkedin } from "react-icons/fa"
+import { BsLinkedin } from "react-icons/bs"
 
 export default function Main() {
   return (
@@ -32,7 +33,7 @@ export default function Main() {
                 aria-label="linkedin"
                 href="https://www.linkedin.com/in/mariusz-karpow-6840412a2/"
               >
-                <FaLinkedin className="social-icon" />
+                <BsLinkedin className="social-icon" />
               </a>
             </div>
           </div>
