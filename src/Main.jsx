@@ -1,15 +1,12 @@
 import React from "react"
 import { NavLink } from "react-router-dom"
 import { BsArrowRightCircle } from "react-icons/bs"
-import { FaGithub, FaLinkedin } from "react-icons/fa"
-import { BsLinkedin } from "react-icons/bs"
-import { BsGithub } from "react-icons/bs"
+import { BsLinkedin, BsGithub } from "react-icons/bs"
 
 export default function Main() {
   return (
     <div className="home-page-flex-container">
       <img className="headshot" src="/self3.png" />
-      {/* <div className="headshot"></div> */}
       <div className="introduction-flex">
         <h2 className="introduction">
           HI, I'M A SOFTWARE <strong className="developer">DEVELOPER</strong>

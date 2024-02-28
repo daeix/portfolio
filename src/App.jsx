@@ -1,6 +1,4 @@
-import Header from "./Header"
 import Main from "./Main"
-import Footer from "./Footer"
 import About from "./About"
 import Portfolio from "./Portfolio"
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom"

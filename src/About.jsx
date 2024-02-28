@@ -18,10 +18,10 @@ export default function About() {
 
           <p>
             Hello! I'm Mariusz. I'm a self taught Software Developer
-            specializing in React. I studied FrontEnd development since 2022, I
+            specializing in React. I studied Front-End development since 2022, I
             enjoy all types of sports and outdoor activities, long afternoon
             walks with my family and I believe I'm going to become Senior React
-            Developer in near future. You should hire me!
+            Developer in near future.
           </p>
         </div>
       </div>

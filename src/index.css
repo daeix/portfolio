@@ -42,7 +42,6 @@ body {
   border-radius: 255px;
   border: 0px solid #242424;
   margin: 0 auto;
-  /* background-image: url(/self4.png); */
   background-size: cover;
   background-color: #242424;
 }
@@ -347,15 +346,22 @@ li {
 }
 
 .portfolio-link {
+  color: #302f2f;
   text-decoration: none;
   display: flex;
   align-items: center;
   gap: 0.1em;
   border: 1.5px solid black;
+  box-shadow: 2px 2px 2px #807d7d;
   padding: 0.25em 0.5em;
   border-radius: 25px;
   margin: 0.15em;
   background-color: rgb(216, 210, 210);
+}
+
+.portfolio-link:hover {
+  color: black;
+  font-size: 1.005em;
 }
 
 .social-icon-a {

@@ -1,6 +1,5 @@
 import React from "react"
 import { NavLink } from "react-router-dom"
-import { MdOutlineDarkMode } from "react-icons/md"
 
 export default function Header() {
   const activeStyles = {
