@@ -23,7 +23,6 @@ export default function Main() {
             Contact me <BsArrowRightCircle />
             <div className="social-icons">
               <a
-                className="social-a"
                 target="_blank"
                 aria-label="github"
                 href="https://github.com/daeix"

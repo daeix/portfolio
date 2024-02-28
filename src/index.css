@@ -358,7 +358,7 @@ li {
   background-color: rgb(216, 210, 210);
 }
 
-a:visited {
+/* a:visited {
   color: #303030;
 }
 
@@ -366,13 +366,9 @@ a {
   color: #242424;
 }
 
-.social-a {
-  color: red;
-}
-
 a:hover {
   color: #000000;
-}
+} */
 
 .project-description {
   margin: 0.4em 0;
