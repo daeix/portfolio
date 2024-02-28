@@ -52,7 +52,7 @@ export default function Portfolio() {
         </a>
       </div>
 
-      <div className="project">
+      <div className="project-last">
         <img className="preview" src="/tenzies-mockup.png" />
         <h3 className="project-title">Tenzies</h3>
         <p className="project-description">

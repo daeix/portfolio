@@ -61,7 +61,7 @@ export default function About() {
           </ul>
         </div>
       </div>
-      <div className="terminal-container">
+      <div className="terminal-container-last">
         <div className="terminal-bar">
           <div className="dots-container">
             <span className="red-circle"></span>

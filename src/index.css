@@ -132,7 +132,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 1.25em;
-  margin-top: 1.25em;
+  margin-top: 1.35em;
 }
 
 .introduction {
@@ -224,7 +224,6 @@ strong {
 .footer {
   text-align: center;
   color: #656161;
-  margin-top: 6.75em;
 }
 
 .social-icons {
@@ -241,7 +240,8 @@ strong {
   align-items: center;
 }
 
-.terminal-container {
+.terminal-container,
+.terminal-container-last {
   width: calc(100% - 2rem);
   max-width: 685px;
   background-color: #2a2a2a;
@@ -254,6 +254,10 @@ strong {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+.terminal-container-last {
+  margin-bottom: 2em;
+}
+
 .terminal-bar {
   background-color: #555;
   padding: 0;
@@ -263,6 +267,10 @@ strong {
   .terminal-container {
     width: calc(100vw - 2rem);
   }
+}
+
+.home-page-flex-container {
+  margin-bottom: 5.1em;
 }
 
 .terminal-bar {
@@ -338,11 +346,16 @@ li {
   flex-direction: column;
 }
 
-.project {
+.project,
+.project-last {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.project-last {
+  margin-bottom: 2em;
 }
 
 .portfolio-link {
