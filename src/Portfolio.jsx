@@ -27,7 +27,6 @@ export default function Portfolio() {
           Source Code
         </a>
       </div>
-
       <div className="project">
         <img className="preview" src="/pollyglot-mockup.png" />
         <h3 className="project-title">Pollyglot</h3>
@@ -51,7 +50,6 @@ export default function Portfolio() {
           Source Code
         </a>
       </div>
-
       <div className="project-last">
         <img className="preview" src="/tenzies-mockup.png" />
         <h3 className="project-title">Tenzies</h3>

@@ -40,7 +40,7 @@ export default function About() {
           <ul>
             <div className="hobbies-container">
               <img width="20px" src="/travel-icon.svg" />
-              <li> travelling</li>
+              <li> traveling</li>
             </div>
             <div className="hobbies-container">
               <img width="20px" src="/history-icon.svg" />

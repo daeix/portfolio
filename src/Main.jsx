@@ -6,7 +6,7 @@ import { BsLinkedin, BsGithub } from "react-icons/bs"
 export default function Main() {
   return (
     <div className="home-page-flex-container">
-      <img className="headshot" src="/self3.png" />
+      <img className="headshot" src="/self.png" />
       <div className="introduction-flex">
         <h2 className="introduction">
           HI, I'M A SOFTWARE <strong className="developer">DEVELOPER</strong>
