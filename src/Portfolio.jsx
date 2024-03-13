@@ -51,7 +51,7 @@ export default function Portfolio() {
         </a>
       </div>
       <div className="project-last">
-        <img className="preview" src="/tenzies-mockup.png" />
+        <img src="/tenzies-mockup.png" />
         <h3 className="project-title">Tenzies</h3>
         <p className="project-description">
           Simple game built with HTML, CSS and React.js
