@@ -83,14 +83,14 @@ export default function About() {
             <li>git/github</li>
             <li>figma</li>
           </ul>
-          <p>
+          <div>
             <span className="about-title">Exposed to and learning</span>
             <ul className="about-skills">
               <li>typescript</li>
               <li>tailwind</li>
               <li>openai</li>
             </ul>
-          </p>
+          </div>
         </div>
       </div>
     </div>

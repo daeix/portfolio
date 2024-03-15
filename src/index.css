@@ -108,7 +108,7 @@ ul {
   align-items: center;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 900px) {
   :root {
     --fs-h1: 4.5rem;
     --fs-h2: 3.75rem;
@@ -162,7 +162,7 @@ h3 {
 
 img {
   display: block;
-  max-width: 100%;
+  width: 100%;
 }
 
 strong {
@@ -357,21 +357,19 @@ li {
   font-size: 1.75em;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 800px) {
   .home-page-flex-container {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
 
   .headshot {
     margin: 0;
-    width: 450px;
-    height: 450px;
   }
 
   .introduction {
-    font-size: 2.85em;
+    font-size: 2.75em;
   }
 
   .introduction,
@@ -403,5 +401,28 @@ li {
   .nav-link {
     font-size: 1.75rem;
     font-weight: 600;
+  }
+}
+
+@media (min-width: 1365px) {
+  .headshot {
+    height: 450px;
+    width: 450px;
+  }
+}
+
+@media (orientation: landscape) {
+  .home-page-flex-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+  }
+
+  .projects {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 20px;
+    grid-template-rows: 1fr 1fr;
+    padding: 10px;
   }
 }
