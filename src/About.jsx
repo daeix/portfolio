@@ -39,23 +39,23 @@ export default function About() {
           <span>cd hobbies/interests</span>
           <ul>
             <div className="hobbies-container">
-              <img width="20px" src="/travel-icon.svg" />
+              <img className="hobbies-icon" src="/travel-icon.svg" />
               <li> traveling</li>
             </div>
             <div className="hobbies-container">
-              <img width="20px" src="/history-icon.svg" />
+              <img className="hobbies-icon" src="/history-icon.svg" />
               <li> history</li>
             </div>
             <div className="hobbies-container">
-              <img width="20px" src="/sport-icon.svg" />
+              <img className="hobbies-icon" src="/sport-icon.svg" />
               <li>sport</li>
             </div>
             <div className="hobbies-container">
-              <img width="20px" src="/food-icon.svg" />
+              <img className="hobbies-icon" src="/food-icon.svg" />
               <li>cooking</li>
             </div>
             <div className="hobbies-container">
-              <img width="20px" src="/tech-icon.svg" />
+              <img className="hobbies-icon" src="/tech-icon.svg" />
               <li>technology</li>
             </div>
           </ul>

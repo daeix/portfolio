@@ -357,6 +357,10 @@ li {
   font-size: 1.75em;
 }
 
+.hobbies-icon {
+  width: 20px;
+}
+
 @media (min-width: 800px) {
   .home-page-flex-container {
     display: flex;
